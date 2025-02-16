@@ -68,6 +68,7 @@ class WumpusWorld():
             self.game_over=True    
             
     def shoot_arrow(self,direction):
+        """The player has 1 arrow which they can shoot """
         if self.arrow==0:
             print("No arrows left to shoot")
             return   
